@@ -1,0 +1,12 @@
+{
+  "name": "labirin-phaser-astar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Game labirin 2D dengan Phaser.js dan musuh AI A*",
+  "scripts": {
+    "start": "powershell -NoProfile -Command \"Start-Process http://localhost:8080; npx http-server -p 8080 -c-1\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

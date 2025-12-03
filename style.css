@@ -1,0 +1,24 @@
+html, body { 
+  height: 100%; 
+  margin: 0; 
+  overflow: hidden;
+  background: #10151a;
+}
+#game { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw; 
+  height: 100vh; 
+}
+#hud { 
+  position: fixed; 
+  top: 8px; 
+  left: 8px; 
+  background: rgba(0,0,0,0.5); 
+  color: #fff; 
+  padding: 8px 12px; 
+  border-radius: 6px; 
+  font-family: system-ui, Arial, sans-serif;
+  z-index: 1000;
+}
